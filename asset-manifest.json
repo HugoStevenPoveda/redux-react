@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/redux-react/static/css/main.0f8e159c.chunk.css",
+    "main.js": "/redux-react/static/js/main.abe9398e.chunk.js",
+    "main.js.map": "/redux-react/static/js/main.abe9398e.chunk.js.map",
+    "runtime-main.js": "/redux-react/static/js/runtime-main.3fbece3e.js",
+    "runtime-main.js.map": "/redux-react/static/js/runtime-main.3fbece3e.js.map",
+    "static/js/2.8cb15647.chunk.js": "/redux-react/static/js/2.8cb15647.chunk.js",
+    "static/js/2.8cb15647.chunk.js.map": "/redux-react/static/js/2.8cb15647.chunk.js.map",
+    "index.html": "/redux-react/index.html",
+    "static/css/main.0f8e159c.chunk.css.map": "/redux-react/static/css/main.0f8e159c.chunk.css.map",
+    "static/js/2.8cb15647.chunk.js.LICENSE.txt": "/redux-react/static/js/2.8cb15647.chunk.js.LICENSE.txt",
+    "static/media/agua.82ad9f18.png": "/redux-react/static/media/agua.82ad9f18.png",
+    "static/media/cancha.b0e8fd65.jpg": "/redux-react/static/media/cancha.b0e8fd65.jpg",
+    "static/media/electricidad.6db4ee76.png": "/redux-react/static/media/electricidad.6db4ee76.png",
+    "static/media/fuego.38b14b9f.png": "/redux-react/static/media/fuego.38b14b9f.png",
+    "static/media/hierva.ff3c65ca.png": "/redux-react/static/media/hierva.ff3c65ca.png",
+    "static/media/piedra.9f2172ba.png": "/redux-react/static/media/piedra.9f2172ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fbece3e.js",
+    "static/js/2.8cb15647.chunk.js",
+    "static/css/main.0f8e159c.chunk.css",
+    "static/js/main.abe9398e.chunk.js"
+  ]
+}
