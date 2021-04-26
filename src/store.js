@@ -13,27 +13,42 @@ const initialState={
 
 const reducerEntrenador=(state =initialState,action)=>{
 
-    if(action.type ==="AGREGAR_TITULAR"){
-        return{
-            ...state,
-            titulares:state.titulares.concat(action.jugador),
-            jugadores:state.jugadores.filter(jugador =>jugador.id !== action.jugador.id)
 
+    switch (action.type) {
+        case "AGREGAR_TITULAR":
+            return{
+                ...state,
+                titulares:state.titulares.concat(action.jugador),
+                jugadores:state.jugadores.filter(jugador =>jugador.id !== action.jugador.id)
+            }
+            
+            break;
+        case "AGREGAR_SUPLENTE":
+            return{
+                ...state,
+                suplentes:state.suplentes.concat(action.jugador),
+                jugadores:state.jugadores.filter(jugador =>jugador.id !== action.jugador.id)
+            }
+            break;
+        case "RETIRAR_TITULAR":
+            return{
+                ...state,
+                jugadores:state.jugadores.concat(action.jugador),
+                titulares:state.titulares.filter(jugador =>jugador.id !== action.jugador.id)
+            }
+            break;
+        case "RETIRAR_SUPLENTE":
+            return{
+                ...state,
+                jugadores:state.jugadores.concat(action.jugador),
+                suplentes:state.suplentes.filter(jugador =>jugador.id !== action.jugador.id)
 
-
-        }
-    }
-    else if (action.type ==="AGREGAR_SUPLENTE") {
-        return{
-            ...state,
-            suplentes:state.suplentes.concat(action.jugador),
-            jugadores:state.jugadores.filter(jugador =>jugador.id !== action.jugador.id)
-
-
-
-        }
+            }
         
-    } 
+    }
+
+
+
 
 
 

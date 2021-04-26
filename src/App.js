@@ -4,7 +4,7 @@ import './styles/App.css';
 import {Provider} from 'react-redux'
 import Jugadores from './components/Jugadores'
 import EquipoSeleccionado from './components/EquipoSeleccionado'
-import './styles/App.css'
+import './styles/style.scss'
 import store from './store';
 
 const App =()=>(
